@@ -14,14 +14,14 @@
             title: '产品详情',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">{name}</h3>' +
                 '<p>{description}</p>' +
-                '<img src="images/products/detail-2.png" alt="{shortName}展示" class="detail-image">' +
+                '<img src="images/products/detail-2.webp" alt="{shortName}展示" class="detail-image">' +
                 '<p>金柚富含维生素C、柚皮苷、果胶等多种营养成分，具有清热润肺、化痰止咳、美容养颜等功效，是秋冬季节不可多得的时令佳果。</p>'
         },
         {
             title: '产地说明',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">原产地优势</h3>' +
                 '<p>梅州地处北纬24°，属于亚热带季风气候区，年平均气温21℃，年降雨量1500mm以上，无霜期长达300天以上。独特的丘陵地貌和富硒红壤土为金柚种植提供了绝佳的天然条件。</p>' +
-                '<img src="images/products/orchard.png" alt="梅州金柚果园" class="detail-image">' +
+                '<img src="images/products/orchard.webp" alt="梅州金柚果园" class="detail-image">' +
                 '<p>梅州金柚种植历史悠久，可追溯至明清时期。经过数百年的品种改良和种植技术积累，梅州金柚已形成独特的风味品质，获得"国家地理标志保护产品"认证。</p>' +
                 '<p>我们的果园基地位于梅州核心产区，远离工业污染，采用生态种植方式，坚持使用有机肥料，引山泉水灌溉，确保每一颗金柚都是纯天然、无公害的绿色食品。</p>'
         },
@@ -29,7 +29,7 @@
             title: '品质优势',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">品质优势</h3>' +
                 '<p><strong>果肉品质：</strong>果肉晶莹饱满，汁水丰盈，可食率高达65%以上，糖度可达12°Bx以上，酸甜适口，风味浓郁。</p>' +
-                '<img src="images/products/pomelo-fresh-2.png" alt="金柚切开展示" class="detail-image">' +
+                '<img src="images/products/pomelo-fresh-2.webp" alt="金柚切开展示" class="detail-image">' +
                 '<p><strong>严选标准：</strong>每颗金柚均经过人工筛选，仅选用果形端正、果皮光滑、重量达标的优质果实。从采摘到发货，经过三道品质检验流程。</p>' +
                 '<p><strong>营养丰富：</strong>富含维生素C、维生素B族、钾、钙、镁等多种微量元素，以及柚皮苷等活性物质，营养价值极高。</p>'
         },
@@ -37,7 +37,7 @@
             title: '包装物流',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">包装与物流</h3>' +
                 '<p><strong>专业包装：</strong>采用食品级珍珠棉独立包裹 + 五层瓦楞纸箱，防震抗压，确保运输过程中果实完好无损。</p>' +
-                '<img src="images/products/detail-3.png" alt="包装发货" class="detail-image">' +
+                '<img src="images/products/detail-3.webp" alt="包装发货" class="detail-image">' +
                 '<p><strong>物流配送：</strong>合作顺丰速运，全国主要城市次日达/隔日达。冷链运输，全程温控，确保金柚新鲜到家。</p>' +
                 '<p><strong>售后服务：</strong>收到货后如发现坏果，请于24小时内联系客服，我们承诺坏果包赔，让您购物无忧。</p>'
         },
@@ -45,9 +45,9 @@
             title: '产品亮点',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">产品亮点</h3>' +
                 '<div class="highlights-grid">' +
-                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-origin.png" alt="原产地"></div><h4>原产地直发</h4><p>梅州核心产区果园直供，从枝头到舌尖新鲜直达</p></div>' +
-                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-eco.png" alt="生态"></div><h4>生态种植</h4><p>富硒红壤土种植，山泉水灌溉，绿色无公害认证</p></div>' +
-                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-quality.png" alt="品质"></div><h4>品质严选</h4><p>三道品质检验流程，颗颗人工筛选，确保品质如一</p></div>' +
+                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-origin.webp" alt="原产地"></div><h4>原产地直发</h4><p>梅州核心产区果园直供，从枝头到舌尖新鲜直达</p></div>' +
+                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-eco.webp" alt="生态"></div><h4>生态种植</h4><p>富硒红壤土种植，山泉水灌溉，绿色无公害认证</p></div>' +
+                '<div class="highlight-card"><div class="highlight-icon"><img src="images/icons/icon-quality.webp" alt="品质"></div><h4>品质严选</h4><p>三道品质检验流程，颗颗人工筛选，确保品质如一</p></div>' +
                 '</div>'
         },
         {
@@ -55,26 +55,26 @@
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">果肉口感</h3>' +
                 '<p>梅州金柚的果肉晶莹剔透，粒粒饱满如水晶。轻轻咬开，丰盈的汁水在口中迸发，清甜中带着微微的果酸，层次丰富、回味悠长。</p>' +
                 '<p>果肉质地细腻柔软，入口即化，几乎感受不到纤维的存在。糖度可达12°Bx以上，酸甜比例恰到好处——不会甜得发腻，也不会酸得皱眉，是大自然最精妙的配比。</p>' +
-                '<img src="images/products/detail-taste.png" alt="金柚果肉口感" class="detail-image">' +
+                '<img src="images/products/detail-taste.webp" alt="金柚果肉口感" class="detail-image">' +
                 '<p>无论是直接食用，还是榨汁、做沙拉、搭配甜品，梅州金柚都能展现出非凡的口感和风味。每一口都是对味蕾的温柔馈赠，让人一尝倾心。</p>'
         },
         {
             title: '采摘与发货',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">采摘与发货流程</h3>' +
                 '<div class="process-steps">' +
-                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-origin.png" alt="采摘"></div><div class="step-num">1</div><h4>果园采摘</h4><p>清晨人工采摘，精选成熟度最佳的果实</p></div>' +
-                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-quality.png" alt="分选"></div><div class="step-num">2</div><h4>品质分选</h4><p>三道人工筛选+光电分选线精准分级</p></div>' +
-                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-gift.png" alt="包装"></div><div class="step-num">3</div><h4>精心包装</h4><p>珍珠棉独立包裹+五层瓦楞纸箱防震</p></div>' +
-                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-logistics.png" alt="发货"></div><div class="step-num">4</div><h4>冷链发货</h4><p>顺丰冷链配送，全程温控，新鲜到家</p></div>' +
+                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-origin.webp" alt="采摘"></div><div class="step-num">1</div><h4>果园采摘</h4><p>清晨人工采摘，精选成熟度最佳的果实</p></div>' +
+                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-quality.webp" alt="分选"></div><div class="step-num">2</div><h4>品质分选</h4><p>三道人工筛选+光电分选线精准分级</p></div>' +
+                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-gift.webp" alt="包装"></div><div class="step-num">3</div><h4>精心包装</h4><p>珍珠棉独立包裹+五层瓦楞纸箱防震</p></div>' +
+                '<div class="process-step"><div class="step-icon"><img src="images/icons/icon-logistics.webp" alt="发货"></div><div class="step-num">4</div><h4>冷链发货</h4><p>顺丰冷链配送，全程温控，新鲜到家</p></div>' +
                 '</div>' +
-                '<img src="images/products/detail-logistics.png" alt="物流配送流程" class="detail-image">' +
+                '<img src="images/products/detail-logistics.webp" alt="物流配送流程" class="detail-image">' +
                 '<p>从果园到餐桌，每一个环节我们都严格把控。下单后24小时内发货，全国主要城市1-3天送达，确保您收到的是最新鲜的梅州金柚。</p>'
         },
         {
             title: '包装说明',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">包装说明</h3>' +
                 '<p><strong>专业防护：</strong>每一颗金柚都使用食品级珍珠棉独立包裹，有效防止运输过程中的碰撞和挤压。外层采用五层高强度瓦楞纸箱，防震抗压，确保果实完好无损地送达您手中。</p>' +
-                '<img src="images/products/detail-package.png" alt="包装展示" class="detail-image">' +
+                '<img src="images/products/detail-package.webp" alt="包装展示" class="detail-image">' +
                 '<p><strong>简装说明：</strong>简装版采用环保牛皮纸箱+珍珠棉包裹，适合自食或家庭分享，经济实惠。</p>' +
                 '<p><strong>礼盒包装：</strong>礼盒版采用高端金绿配色礼盒+丝绸内衬+精美手提袋，附赠品牌贺卡，是送礼的品质之选。</p>'
         },
@@ -82,7 +82,7 @@
             title: '食用建议',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">食用建议</h3>' +
                 '<p><strong>最佳食用时间：</strong>金柚在10月至次年2月为最佳赏味期。收到后建议在阴凉通风处放置2-3天，让果实稍微"回糖"，此时口感更甜更佳。</p>' +
-                '<img src="images/products/detail-eat.png" alt="食用场景" class="detail-image">' +
+                '<img src="images/products/detail-eat.webp" alt="食用场景" class="detail-image">' +
                 '<p><strong>食用方法：</strong>用水果刀在柚皮上划十字，剥去外皮后掰开果肉即可食用。也可将果肉剥出做水果沙拉、搭配酸奶或冰淇淋，口感更丰富。</p>' +
                 '<p><strong>储存建议：</strong>完整金柚适合在10-15℃阴凉通风处存放，可保存15-20天。剥开后的果肉建议密封冷藏，2天内食用完毕风味最佳。</p>' +
                 '<p><strong>温馨提示：</strong>金柚性凉，脾胃虚寒者建议适量食用。金柚与部分药物可能产生相互作用，正在服药期间请咨询医生。</p>'
@@ -101,16 +101,16 @@
             title: '礼盒展示',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">精美礼盒</h3>' +
                 '<p>我们的礼盒设计融合了中国传统文化元素与现代美学理念。金绿配色象征丰收与尊贵，烫金工艺彰显品质，每一个细节都经过精心打磨。</p>' +
-                '<img src="images/products/gift-box-1.png" alt="礼盒展示" class="detail-image">' +
+                '<img src="images/products/gift-box-1.webp" alt="礼盒展示" class="detail-image">' +
                 '<p>礼盒内部采用丝绸内衬+独立卡槽设计，每一颗金柚都被妥善安放。搭配品牌手提袋和精美贺卡，送礼体面大方，让对方感受到您的用心与诚意。</p>' +
-                '<img src="images/products/gift-scene-family.png" alt="送礼场景" class="detail-image">'
+                '<img src="images/products/gift-scene-family.webp" alt="送礼场景" class="detail-image">'
         },
         {
             title: '包装规格',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">包装规格</h3>' +
                 '<p><strong>外盒材质：</strong>采用高密度灰板裱糊艺术纸，表面覆亚膜，防潮耐磨，质感出众。</p>' +
                 '<p><strong>内部结构：</strong>珍珠棉内托+独立卡槽，每颗金柚独立安放，防震抗压。</p>' +
-                '<img src="images/products/detail-package.png" alt="包装细节" class="detail-image">' +
+                '<img src="images/products/detail-package.webp" alt="包装细节" class="detail-image">' +
                 '<p><strong>配件清单：</strong>品牌手提袋×1、精美贺卡×1、产品介绍卡×1、食用指南×1。</p>' +
                 '<p><strong>礼盒尺寸：</strong>根据规格不同，礼盒尺寸在35×25×15cm至45×35×20cm之间，具体以实际产品为准。</p>'
         },
@@ -118,7 +118,7 @@
             title: '品质保障',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">品质保障</h3>' +
                 '<p><strong>严选果实：</strong>礼盒中的每一颗金柚都经过三重筛选——果形筛选、重量筛选、外观筛选，确保果形端正、色泽金黄、无瑕疵。</p>' +
-                '<img src="images/products/pomelo-fresh-2.png" alt="品质严选" class="detail-image">' +
+                '<img src="images/products/pomelo-fresh-2.webp" alt="品质严选" class="detail-image">' +
                 '<p><strong>新鲜保证：</strong>礼盒订单优先采摘，从果园到包装不超过48小时，确保果实新鲜度。</p>' +
                 '<p><strong>品质承诺：</strong>如收到礼盒后发现任何质量问题（坏果、破损），我们承诺免费补发或全额退款，让您送礼无忧。</p>'
         },
@@ -127,7 +127,7 @@
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">送礼场景</h3>' +
                 '<p><strong>🎁 节日送礼：</strong>春节、中秋、端午等传统佳节，金柚礼盒是最应景的健康好礼，"金柚"谐音"金佑"，寓意吉祥平安。</p>' +
                 '<p><strong>💼 商务馈赠：</strong>高端金柚礼盒是企业商务送礼、客户答谢的理想选择，体面大方，彰显企业文化品味。</p>' +
-                '<img src="images/products/gift-scene-business.png" alt="商务送礼" class="detail-image">' +
+                '<img src="images/products/gift-scene-business.webp" alt="商务送礼" class="detail-image">' +
                 '<p><strong>🏠 走亲访友：</strong>逢年过节走亲访友，带上一份金柚礼盒，既健康又体面，传递美好祝福。</p>' +
                 '<p><strong>🎊 员工福利：</strong>企业团购金柚礼盒作为员工节日福利，健康实用，深受员工喜爱。</p>'
         },
@@ -135,7 +135,7 @@
             title: '物流配送',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">物流配送</h3>' +
                 '<p><strong>配送方式：</strong>合作顺丰速运/京东物流，全国主要城市1-3天送达。礼盒产品采用加固外箱+气泡柱保护，确保礼盒完好无损。</p>' +
-                '<img src="images/products/detail-logistics.png" alt="物流配送" class="detail-image">' +
+                '<img src="images/products/detail-logistics.webp" alt="物流配送" class="detail-image">' +
                 '<p><strong>发货时效：</strong>工作日16:00前下单当天发货，16:00后次日发货。节假日正常发货（春节除外）。</p>' +
                 '<p><strong>配送范围：</strong>全国范围配送（港澳台及偏远地区请咨询客服确认时效）。</p>'
         },
@@ -170,14 +170,14 @@
             title: '原料产地',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">原料产地</h3>' +
                 '<p>原料金柚产自中国"金柚之乡"——广东省梅州市。这里地处粤东北山区，气候温和、雨量充沛、日照充足，得天独厚的自然环境与富硒土壤为金柚的生长提供了最佳条件。</p>' +
-                '<img src="images/products/orchard.png" alt="梅州金柚果园" class="detail-image">' +
+                '<img src="images/products/orchard.webp" alt="梅州金柚果园" class="detail-image">' +
                 '<p>我们只选用成熟度最佳、品质最优的金柚果实作为加工原料，从源头确保产品的高品质。每一批原料都经过严格的农残检测和品质检验，符合国家食品安全标准。</p>'
         },
         {
             title: '制作工艺',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">制作工艺</h3>' +
                 '<p>采用现代化食品加工工艺，结合传统匠心手法，在保证食品安全的同时，最大程度锁住金柚的天然营养和独特风味。</p>' +
-                '<img src="images/products/detail-3.png" alt="制作工艺" class="detail-image">' +
+                '<img src="images/products/detail-3.webp" alt="制作工艺" class="detail-image">' +
                 '<p><strong>严格品控：</strong>从原料清洗、加工处理到成品包装，全程在十万级净化车间完成。每一批次产品都经过微生物、重金属、农残等多项检测，合格后方可出厂。</p>' +
                 '<p><strong>无添加承诺：</strong>不添加人工色素、香精和防腐剂，保留食材本真味道，让消费者吃得放心。</p>'
         },
@@ -202,7 +202,7 @@
             title: '食用方法',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">食用方法</h3>' +
                 '<p>开袋/开罐即食，方便快捷。也可根据个人喜好搭配其他食材，创造更多美味吃法：</p>' +
-                '<img src="images/products/detail-eat.png" alt="食用场景" class="detail-image">' +
+                '<img src="images/products/detail-eat.webp" alt="食用场景" class="detail-image">' +
                 '<p>多种创意吃法等您来发现——搭配酸奶、涂抹面包、冲泡饮品、烘焙原料……让金柚的美味融入日常生活的每一个瞬间。</p>' +
                 '<p><strong>温馨提示：</strong>开封后请尽快食用，以保持最佳风味。具体保存方法请参见"储存建议"。</p>'
         },
@@ -210,7 +210,7 @@
             title: '包装规格',
             content: '<h3 style="font-size:20px;color:#2F2419;margin-bottom:16px;">包装规格</h3>' +
                 '<p><strong>包装材质：</strong>采用食品级安全包装材料，密封防潮，确保产品新鲜卫生。</p>' +
-                '<img src="images/products/detail-package.png" alt="包装展示" class="detail-image">' +
+                '<img src="images/products/detail-package.webp" alt="包装展示" class="detail-image">' +
                 '<p><strong>规格信息：</strong>具体规格请参见商品参数。所有包装均经过严格的质量检验，符合国家食品安全包装标准。</p>' +
                 '<p><strong>外箱包装：</strong>快递发货时外加五层瓦楞纸箱，防震抗压，确保商品完好送达。</p>'
         },
@@ -254,8 +254,8 @@
             shortName: '梅州新鲜金柚',
             price: 68,
             originalPrice: 88,
-            image: 'images/products/pomelo-fresh-1.png',
-            images: ['images/products/pomelo-fresh-1.png', 'images/products/pomelo-fresh-2.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-fresh-1.webp',
+            images: ['images/products/pomelo-fresh-1.webp', 'images/products/pomelo-fresh-2.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '爆款热卖',
             keywords: '金柚 新鲜 5斤 柚子 水果 沙田柚',
@@ -284,8 +284,8 @@
             shortName: '梅州新鲜金柚',
             price: 98,
             originalPrice: 128,
-            image: 'images/products/pomelo-fresh-2.png',
-            images: ['images/products/pomelo-fresh-2.png', 'images/products/pomelo-fresh-1.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-fresh-2.webp',
+            images: ['images/products/pomelo-fresh-2.webp', 'images/products/pomelo-fresh-1.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '优选',
             keywords: '金柚 新鲜 8斤 柚子 水果 沙田柚',
@@ -314,8 +314,8 @@
             shortName: '梅州新鲜金柚',
             price: 138,
             originalPrice: 168,
-            image: 'images/products/pomelo-fresh-3.png',
-            images: ['images/products/pomelo-fresh-3.png', 'images/products/pomelo-fresh-1.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-fresh-3.webp',
+            images: ['images/products/pomelo-fresh-3.webp', 'images/products/pomelo-fresh-1.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '超值',
             keywords: '金柚 新鲜 12斤 柚子 水果 沙田柚',
@@ -344,8 +344,8 @@
             shortName: '金柚家庭装',
             price: 128,
             originalPrice: 158,
-            image: 'images/products/pomelo-family-box.png',
-            images: ['images/products/pomelo-family-box.png', 'images/products/pomelo-fresh-2.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-family-box.webp',
+            images: ['images/products/pomelo-family-box.webp', 'images/products/pomelo-fresh-2.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '家庭优选',
             keywords: '家庭 8斤 实惠 金柚 新鲜',
@@ -372,8 +372,8 @@
             shortName: '金柚精选装',
             price: 78,
             originalPrice: 98,
-            image: 'images/products/pomelo-selected-box.png',
-            images: ['images/products/pomelo-selected-box.png', 'images/products/pomelo-fresh-1.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-selected-box.webp',
+            images: ['images/products/pomelo-selected-box.webp', 'images/products/pomelo-fresh-1.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '精选推荐',
             keywords: '精选 5斤 品质 金柚 新鲜',
@@ -400,8 +400,8 @@
             shortName: '双果体验装',
             price: 32,
             originalPrice: 42,
-            image: 'images/products/pomelo-fresh-3.png',
-            images: ['images/products/pomelo-fresh-3.png', 'images/products/pomelo-fresh-1.png', 'images/products/detail-1.png', 'images/products/detail-2.png'],
+            image: 'images/products/pomelo-fresh-3.webp',
+            images: ['images/products/pomelo-fresh-3.webp', 'images/products/pomelo-fresh-1.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp'],
             category: 'fresh',
             tag: '尝鲜',
             keywords: '体验 试吃 双果 金柚 新品尝鲜',
@@ -429,8 +429,8 @@
             shortName: '金柚精品礼盒',
             price: 168,
             originalPrice: 198,
-            image: 'images/products/gift-box-1.png',
-            images: ['images/products/gift-box-1.png', 'images/products/gift-box-2.png', 'images/products/detail-3.png', 'images/products/gift-scene-family.png'],
+            image: 'images/products/gift-box-1.webp',
+            images: ['images/products/gift-box-1.webp', 'images/products/gift-box-2.webp', 'images/products/detail-3.webp', 'images/products/gift-scene-family.webp'],
             category: 'gift',
             tag: '送礼首选',
             keywords: '礼盒 精品 送礼 金柚 高端 节日',
@@ -456,8 +456,8 @@
             shortName: '金柚臻品礼盒',
             price: 258,
             originalPrice: 298,
-            image: 'images/products/gift-box-2.png',
-            images: ['images/products/gift-box-2.png', 'images/products/gift-box-1.png', 'images/products/detail-3.png', 'images/products/gift-scene-family.png'],
+            image: 'images/products/gift-box-2.webp',
+            images: ['images/products/gift-box-2.webp', 'images/products/gift-box-1.webp', 'images/products/detail-3.webp', 'images/products/gift-scene-family.webp'],
             category: 'gift',
             tag: '限量臻品',
             keywords: '礼盒 臻品 豪华 送礼 金柚 限量',
@@ -483,8 +483,8 @@
             shortName: '精品礼盒3号',
             price: 238,
             originalPrice: 288,
-            image: 'images/products/gift-box-3.png',
-            images: ['images/products/gift-box-3.png', 'images/products/gift-box-1.png', 'images/products/detail-3.png', 'images/products/gift-scene-family.png'],
+            image: 'images/products/gift-box-3.webp',
+            images: ['images/products/gift-box-3.webp', 'images/products/gift-box-1.webp', 'images/products/detail-3.webp', 'images/products/gift-scene-family.webp'],
             category: 'gift',
             tag: '新品上市',
             keywords: '礼盒 雅致 时尚 送礼 金柚 新品',
@@ -510,8 +510,8 @@
             shortName: '企业团购定制装',
             price: 388,
             originalPrice: 468,
-            image: 'images/products/gift-box-corporate.png',
-            images: ['images/products/gift-box-corporate.png', 'images/products/gift-box-1.png', 'images/products/detail-3.png', 'images/products/gift-scene-business.png'],
+            image: 'images/products/gift-box-corporate.webp',
+            images: ['images/products/gift-box-corporate.webp', 'images/products/gift-box-1.webp', 'images/products/detail-3.webp', 'images/products/gift-scene-business.webp'],
             category: 'gift',
             tag: '企业专供',
             keywords: '企业 团购 定制 LOGO 批量 商务 送礼',
@@ -537,8 +537,8 @@
             shortName: '伴手礼组合装',
             price: 198,
             originalPrice: 238,
-            image: 'images/products/gift-combo.png',
-            images: ['images/products/gift-combo.png', 'images/products/gift-box-1.png', 'images/products/pomelo-dry.png', 'images/products/pomelo-tea.png'],
+            image: 'images/products/gift-combo.webp',
+            images: ['images/products/gift-combo.webp', 'images/products/gift-box-1.webp', 'images/products/pomelo-dry.webp', 'images/products/pomelo-tea.webp'],
             category: 'gift',
             tag: '伴手好礼',
             keywords: '伴手礼 组合 鲜果 果干 蜂蜜茶',
@@ -566,8 +566,8 @@
             shortName: '金柚果干',
             price: 36,
             originalPrice: 45,
-            image: 'images/products/pomelo-dry.png',
-            images: ['images/products/pomelo-dry.png', 'images/products/detail-1.png', 'images/products/detail-2.png', 'images/products/detail-eat.png'],
+            image: 'images/products/pomelo-dry.webp',
+            images: ['images/products/pomelo-dry.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp', 'images/products/detail-eat.webp'],
             category: 'snack',
             tag: '休闲零食',
             keywords: '果干 零食 金柚 休闲食品',
@@ -593,8 +593,8 @@
             shortName: '金柚蜂蜜茶',
             price: 58,
             originalPrice: 72,
-            image: 'images/products/pomelo-tea.png',
-            images: ['images/products/pomelo-tea.png', 'images/products/detail-1.png', 'images/products/detail-2.png', 'images/products/detail-eat.png'],
+            image: 'images/products/pomelo-tea.webp',
+            images: ['images/products/pomelo-tea.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp', 'images/products/detail-eat.webp'],
             category: 'tea',
             tag: '养生佳品',
             keywords: '蜂蜜茶 饮品 金柚 养生 茶饮',
@@ -620,8 +620,8 @@
             shortName: '金柚果酱',
             price: 45,
             originalPrice: 56,
-            image: 'images/products/pomelo-jam.png',
-            images: ['images/products/pomelo-jam.png', 'images/products/detail-1.png', 'images/products/detail-2.png', 'images/products/detail-eat.png'],
+            image: 'images/products/pomelo-jam.webp',
+            images: ['images/products/pomelo-jam.webp', 'images/products/detail-1.webp', 'images/products/detail-2.webp', 'images/products/detail-eat.webp'],
             category: 'jam',
             tag: '手工制作',
             keywords: '果酱 手工 无添加 早餐 金柚',

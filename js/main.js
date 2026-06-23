@@ -396,13 +396,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 商品数据配置（按 data-product-id 索引）
     const PRODUCTS = {
-        'pomelo-fresh-5':  { name: '梅州新鲜金柚 5斤装',  price: 68,  image: 'images/products/pomelo-fresh-1.png' },
-        'pomelo-fresh-8':  { name: '梅州新鲜金柚 8斤装',  price: 98,  image: 'images/products/pomelo-fresh-1.png' },
-        'pomelo-fresh-12': { name: '梅州新鲜金柚 12斤装', price: 138, image: 'images/products/pomelo-fresh-1.png' },
-        'pomelo-dry':      { name: '金柚果干',            price: 36,  image: 'images/products/pomelo-dry.png' },
-        'pomelo-tea':      { name: '金柚蜂蜜茶',          price: 58,  image: 'images/products/pomelo-tea.png' },
-        'pomelo-trial':    { name: '双果体验装',          price: 32,  image: 'images/products/pomelo-fresh-3.png' },
-        'gift-box-1':      { name: '金柚精品礼盒',        price: 168, image: 'images/products/gift-box-1.png' },
+        'pomelo-fresh-5':  { name: '梅州新鲜金柚 5斤装',  price: 68,  image: 'images/products/pomelo-fresh-1.webp' },
+        'pomelo-fresh-8':  { name: '梅州新鲜金柚 8斤装',  price: 98,  image: 'images/products/pomelo-fresh-1.webp' },
+        'pomelo-fresh-12': { name: '梅州新鲜金柚 12斤装', price: 138, image: 'images/products/pomelo-fresh-1.webp' },
+        'pomelo-dry':      { name: '金柚果干',            price: 36,  image: 'images/products/pomelo-dry.webp' },
+        'pomelo-tea':      { name: '金柚蜂蜜茶',          price: 58,  image: 'images/products/pomelo-tea.webp' },
+        'pomelo-trial':    { name: '双果体验装',          price: 32,  image: 'images/products/pomelo-fresh-3.webp' },
+        'gift-box-1':      { name: '金柚精品礼盒',        price: 168, image: 'images/products/gift-box-1.webp' },
     };
 
     function getCart() {
@@ -480,7 +480,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     var priceEl = document.querySelector('.product-detail-price .current');
                     productPrice = priceEl ? parseFloat(priceEl.textContent.replace('¥', '').trim()) : 68;
                     var imgEl = document.querySelector('.main-image img');
-                    productImage = imgEl ? imgEl.getAttribute('src') : 'images/products/pomelo-fresh-1.png';
+                    productImage = imgEl ? imgEl.getAttribute('src') : 'images/products/pomelo-fresh-1.webp';
                     var specEl = document.querySelector('.spec-options .spec-option.active');
                     productSpec = specEl ? specEl.textContent.trim() : '5斤装';
                     productPackaging = '简装';
@@ -802,20 +802,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /* ========== 商品搜索 ========== */
     var ALL_PRODUCTS = [
-        { id: 'pomelo-fresh-5', name: '梅州新鲜金柚 5斤装', price: 68, image: 'images/products/pomelo-fresh-1.png', category: 'fresh', keywords: '金柚 新鲜 5斤 柚子 水果 沙田柚' },
-        { id: 'pomelo-fresh-8', name: '梅州新鲜金柚 8斤装', price: 98, image: 'images/products/pomelo-fresh-1.png', category: 'fresh', keywords: '金柚 新鲜 8斤 柚子 水果 沙田柚' },
-        { id: 'pomelo-fresh-12', name: '梅州新鲜金柚 12斤装', price: 138, image: 'images/products/pomelo-fresh-1.png', category: 'fresh', keywords: '金柚 新鲜 12斤 柚子 水果 沙田柚' },
-        { id: 'pomelo-dry', name: '金柚果干', price: 36, image: 'images/products/pomelo-dry.png', category: 'snack', keywords: '果干 零食 金柚 休闲食品' },
-        { id: 'pomelo-tea', name: '金柚蜂蜜茶', price: 58, image: 'images/products/pomelo-tea.png', category: 'tea', keywords: '蜂蜜茶 饮品 金柚 养生 茶饮' },
-        { id: 'pomelo-trial', name: '双果体验装', price: 32, image: 'images/products/pomelo-fresh-3.png', category: 'trial', keywords: '体验 试吃 双果 金柚 新品尝鲜' },
-        { id: 'gift-box-1', name: '金柚精品礼盒', price: 168, image: 'images/products/gift-box-1.png', category: 'gift', keywords: '礼盒 精品 送礼 金柚 高端 节日' },
-        { id: 'gift-box-2', name: '金柚臻品礼盒 豪华装', price: 258, image: 'images/products/gift-box-2.png', category: 'gift', keywords: '礼盒 臻品 豪华 送礼 金柚 限量' },
-        { id: 'gift-box-3', name: '精品礼盒3号 雅致装', price: 238, image: 'images/products/gift-box-3.png', category: 'gift', keywords: '礼盒 雅致 时尚 送礼 金柚 新品' },
-        { id: 'gift-corporate', name: '企业团购定制装', price: 388, image: 'images/products/gift-box-corporate.png', category: 'gift', keywords: '企业 团购 定制 LOGO 批量 商务 送礼' },
-        { id: 'gift-combo', name: '伴手礼组合装', price: 198, image: 'images/products/gift-combo.png', category: 'gift', keywords: '伴手礼 组合 鲜果 果干 蜂蜜茶' },
-        { id: 'pomelo-family-box', name: '金柚家庭装 8斤', price: 128, image: 'images/products/pomelo-family-box.png', category: 'fresh', keywords: '家庭 8斤 实惠 金柚 新鲜' },
-        { id: 'pomelo-selected-box', name: '金柚精选装 5斤', price: 78, image: 'images/products/pomelo-selected-box.png', category: 'fresh', keywords: '精选 5斤 品质 金柚 新鲜' },
-        { id: 'pomelo-jam', name: '金柚果酱 280g', price: 45, image: 'images/products/pomelo-jam.png', category: 'jam', keywords: '果酱 手工 无添加 早餐 金柚' }
+        { id: 'pomelo-fresh-5', name: '梅州新鲜金柚 5斤装', price: 68, image: 'images/products/pomelo-fresh-1.webp', category: 'fresh', keywords: '金柚 新鲜 5斤 柚子 水果 沙田柚' },
+        { id: 'pomelo-fresh-8', name: '梅州新鲜金柚 8斤装', price: 98, image: 'images/products/pomelo-fresh-1.webp', category: 'fresh', keywords: '金柚 新鲜 8斤 柚子 水果 沙田柚' },
+        { id: 'pomelo-fresh-12', name: '梅州新鲜金柚 12斤装', price: 138, image: 'images/products/pomelo-fresh-1.webp', category: 'fresh', keywords: '金柚 新鲜 12斤 柚子 水果 沙田柚' },
+        { id: 'pomelo-dry', name: '金柚果干', price: 36, image: 'images/products/pomelo-dry.webp', category: 'snack', keywords: '果干 零食 金柚 休闲食品' },
+        { id: 'pomelo-tea', name: '金柚蜂蜜茶', price: 58, image: 'images/products/pomelo-tea.webp', category: 'tea', keywords: '蜂蜜茶 饮品 金柚 养生 茶饮' },
+        { id: 'pomelo-trial', name: '双果体验装', price: 32, image: 'images/products/pomelo-fresh-3.webp', category: 'trial', keywords: '体验 试吃 双果 金柚 新品尝鲜' },
+        { id: 'gift-box-1', name: '金柚精品礼盒', price: 168, image: 'images/products/gift-box-1.webp', category: 'gift', keywords: '礼盒 精品 送礼 金柚 高端 节日' },
+        { id: 'gift-box-2', name: '金柚臻品礼盒 豪华装', price: 258, image: 'images/products/gift-box-2.webp', category: 'gift', keywords: '礼盒 臻品 豪华 送礼 金柚 限量' },
+        { id: 'gift-box-3', name: '精品礼盒3号 雅致装', price: 238, image: 'images/products/gift-box-3.webp', category: 'gift', keywords: '礼盒 雅致 时尚 送礼 金柚 新品' },
+        { id: 'gift-corporate', name: '企业团购定制装', price: 388, image: 'images/products/gift-box-corporate.webp', category: 'gift', keywords: '企业 团购 定制 LOGO 批量 商务 送礼' },
+        { id: 'gift-combo', name: '伴手礼组合装', price: 198, image: 'images/products/gift-combo.webp', category: 'gift', keywords: '伴手礼 组合 鲜果 果干 蜂蜜茶' },
+        { id: 'pomelo-family-box', name: '金柚家庭装 8斤', price: 128, image: 'images/products/pomelo-family-box.webp', category: 'fresh', keywords: '家庭 8斤 实惠 金柚 新鲜' },
+        { id: 'pomelo-selected-box', name: '金柚精选装 5斤', price: 78, image: 'images/products/pomelo-selected-box.webp', category: 'fresh', keywords: '精选 5斤 品质 金柚 新鲜' },
+        { id: 'pomelo-jam', name: '金柚果酱 280g', price: 45, image: 'images/products/pomelo-jam.webp', category: 'jam', keywords: '果酱 手工 无添加 早餐 金柚' }
     ];
 
     var searchBtn = document.getElementById('navSearchBtn');
@@ -1149,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 '<div class="welcome-modal">' +
                     '<button class="welcome-close" id="welcomeClose" title="关闭">&times;</button>' +
                     '<div class="welcome-header-img" id="welcomeHeaderImg">' +
-                        '<img src="images/welcome-banner.png" alt="梅州金柚欢迎横幅">' +
+                        '<img src="images/welcome-banner.webp" alt="梅州金柚欢迎横幅">' +
                     '</div>' +
                     '<div class="welcome-body">' +
                         '<h2>欢迎来到梅州金柚</h2>' +
@@ -2929,19 +2929,19 @@ document.addEventListener('DOMContentLoaded', function() {
         sidebar.className = 'service-sidebar';
         sidebar.innerHTML =
             '<a class="service-btn" id="svcKefu" title="在线客服">' +
-                '<img src="images/icons/icon-service-avatar.png" alt="客服" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'💬\';this.parentElement.style.fontSize=\'22px\';">' +
+                '<img src="images/icons/icon-service-avatar.webp" alt="客服" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'💬\';this.parentElement.style.fontSize=\'22px\';">' +
                 '<span class="service-tip">在线客服</span>' +
             '</a>' +
             '<a class="service-btn" href="tel:400-888-6666" title="电话咨询">' +
-                '<img src="images/icons/icon-phone2.png" alt="电话" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'📞\';this.parentElement.style.fontSize=\'22px\';">' +
+                '<img src="images/icons/icon-phone2.webp" alt="电话" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'📞\';this.parentElement.style.fontSize=\'22px\';">' +
                 '<span class="service-tip">400-888-6666</span>' +
             '</a>' +
             '<a class="service-btn" id="svcWechat" title="微信客服">' +
-                '<img src="images/icons/icon-wechat.png" alt="微信" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'💚\';this.parentElement.style.fontSize=\'22px\';">' +
+                '<img src="images/icons/icon-wechat.webp" alt="微信" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'💚\';this.parentElement.style.fontSize=\'22px\';">' +
                 '<span class="service-tip">添加微信客服</span>' +
             '</a>' +
             '<a class="service-btn" href="contact.html" title="在线留言">' +
-                '<img src="images/icons/icon-contact.png" alt="留言" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'✉\';this.parentElement.style.fontSize=\'22px\';">' +
+                '<img src="images/icons/icon-contact.webp" alt="留言" onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'✉\';this.parentElement.style.fontSize=\'22px\';">' +
                 '<span class="service-tip">在线留言</span>' +
             '</a>' +
             '<button class="service-btn service-btn-backtop" id="svcBackTop" title="返回顶部">' +
@@ -2994,7 +2994,7 @@ document.addEventListener('DOMContentLoaded', function() {
             progressContainer.innerHTML =
                 '<div class="shipping-progress">' +
                     '<div class="shipping-progress-top">' +
-                        '<img src="images/icons/badge-free-shipping.png" alt="" onerror="this.style.display=\'none\'">' +
+                        '<img src="images/icons/badge-free-shipping.webp" alt="" onerror="this.style.display=\'none\'">' +
                         '<span class="shipping-progress-text"><span class="reached">🎉 已满足免运费条件！</span></span>' +
                     '</div>' +
                     '<div class="shipping-progress-bar">' +
@@ -3008,7 +3008,7 @@ document.addEventListener('DOMContentLoaded', function() {
             progressContainer.innerHTML =
                 '<div class="shipping-progress">' +
                     '<div class="shipping-progress-top">' +
-                        '<img src="images/icons/icon-delivery.png" alt="" onerror="this.style.display=\'none\'">' +
+                        '<img src="images/icons/icon-delivery.webp" alt="" onerror="this.style.display=\'none\'">' +
                         '<span class="shipping-progress-text">再买 <strong>¥' + remaining.toFixed(2) + '</strong> 即可免运费（满¥99包邮）</span>' +
                     '</div>' +
                     '<div class="shipping-progress-bar">' +
@@ -3552,9 +3552,9 @@ document.addEventListener('DOMContentLoaded', function() {
             var url = container.getAttribute('data-url') || window.location.href;
 
             container.innerHTML = '<span>分享到：</span>' +
-                '<button class="share-btn share-wx" title="微信分享"><img src="images/icons/icon-share-wechat.png" alt="微信" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'💚\'"></button>' +
-                '<button class="share-btn share-link" title="复制链接"><img src="images/icons/icon-share-link.png" alt="复制链接" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'🔗\'"></button>' +
-                '<button class="share-btn share-poster" title="生成海报"><img src="images/icons/icon-share-poster.png" alt="海报" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'🖼\'"></button>';
+                '<button class="share-btn share-wx" title="微信分享"><img src="images/icons/icon-share-wechat.webp" alt="微信" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'💚\'"></button>' +
+                '<button class="share-btn share-link" title="复制链接"><img src="images/icons/icon-share-link.webp" alt="复制链接" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'🔗\'"></button>' +
+                '<button class="share-btn share-poster" title="生成海报"><img src="images/icons/icon-share-poster.webp" alt="海报" onerror="this.style.display=\'none\';this.parentElement.style.fontSize=\'18px\';this.parentElement.innerHTML=\'🖼\'"></button>';
 
             container.querySelector('.share-wx').addEventListener('click', function() {
                 navigator.clipboard.writeText(title + '\n' + url).then(function() {
