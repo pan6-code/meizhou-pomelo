@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金柚商城 - 梅州金柚 | 乡村振兴高端电商平台</title>
+    <meta name="description" content="梅州金柚商城，精选新鲜金柚、精品礼盒、金柚果干、金柚蜂蜜茶等优质产品，原产地直发。">
+    <meta property="og:title" content="金柚商城 | 梅州金柚">
+    <meta property="og:description" content="梅州金柚商城，精选新鲜金柚、精品礼盒等优质产品，原产地直发。">
+    <meta property="og:image" content="images/ui/logo.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ui/logo.png" type="image/png">
+</head>
+<body>
+
+    <a class="skip-to-main" href="#main-content">跳到主要内容</a>
+
+    <!-- 顶部公告栏 -->
+    <div class="top-bar">
+        <div class="container">
+            <span>原产地直发</span>
+            <span>新鲜采摘</span>
+            <span>品质保障</span>
+            <span>顺丰冷链配送</span>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/ui/logo.png" alt="梅州金柚">
+                梅州金柚
+            </a>
+            <div class="nav-menu">
+                <a href="index.html">首页</a>
+                <a href="shop.html" class="active">金柚商城</a>
+                <a href="gift.html">礼盒专区</a>
+                <a href="brand.html">品牌故事</a>
+                <a href="news.html">新闻资讯</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <a href="cart.html" class="nav-cart"><img src="images/icons/icon-cart.png" alt="购物车">购物车</a>
+            <div class="nav-user" id="userArea"></div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面横幅 -->
+    <section class="page-banner" id="main-content">
+        <div class="banner-bg">
+            <img src="images/banners/banner-shop.png" alt="金柚商城">
+        </div>
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1>金柚商城</h1>
+            <p class="breadcrumb"><a href="index.html">首页</a><span>/</span>金柚商城</p>
+        </div>
+    </section>
+
+    <!-- 商品区域 -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="shop-layout">
+                <!-- 侧边筛选栏 -->
+                <aside class="shop-sidebar">
+                    <h3>商品筛选</h3>
+
+                    <div class="filter-group">
+                        <h4>商品分类</h4>
+                        <label><input type="checkbox" class="filter-cat" value="all" checked> 全部商品</label>
+                        <label><input type="checkbox" class="filter-cat" value="fresh"> 新鲜金柚</label>
+                        <label><input type="checkbox" class="filter-cat" value="gift"> 精品礼盒</label>
+                        <label><input type="checkbox" class="filter-cat" value="dry"> 金柚果干</label>
+                        <label><input type="checkbox" class="filter-cat" value="tea"> 金柚蜂蜜茶</label>
+                        <label><input type="checkbox" class="filter-cat" value="family"> 家庭装</label>
+                        <label><input type="checkbox" class="filter-cat" value="selected"> 精选装</label>
+                        <label><input type="checkbox" class="filter-cat" value="jam"> 金柚果酱</label>
+                        <label><input type="checkbox" class="filter-cat" value="combo"> 伴手礼</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>价格区间</h4>
+                        <div class="price-range">
+                            <input type="number" placeholder="¥ 最低价" min="0">
+                            <span>-</span>
+                            <input type="number" placeholder="¥ 最高价" min="0">
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h4>服务保障</h4>
+                        <label><input type="checkbox"> 原产地直发</label>
+                        <label><input type="checkbox"> 顺丰冷链</label>
+                        <label><input type="checkbox"> 坏果包赔</label>
+                    </div>
+
+                    <button class="btn-filter">应用筛选</button>
+                    <button class="btn btn-outline-green" onclick="if(window.showCouponPopup)window.showCouponPopup()" style="width:100%;margin-top:8px;font-size:13px;justify-content:center;">🎫 领优惠券</button>
+                </aside>
+
+                <!-- 商品列表 -->
+                <div class="shop-main">
+                    <div class="shop-header">
+                        <span class="result-count">共找到 <strong>14</strong> 件商品</span>
+                        <select>
+                            <option>默认排序</option>
+                            <option>价格从低到高</option>
+                            <option>价格从高到低</option>
+                            <option>最新上架</option>
+                            <option>销量最高</option>
+                        </select>
+                    </div>
+
+                    <div class="shop-products-grid">
+                        <!-- 商品1 -->
+                        <div class="product-card" data-category="fresh" data-price="68">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-fresh-1.png" alt="梅州新鲜金柚">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">爆款热卖</span>
+                                <h3>梅州新鲜金柚 5斤装</h3>
+                                <p class="product-desc">果园直供，颗颗精选，清甜多汁</p>
+                                <div class="product-price">
+                                    <span class="price">¥68.00</span>
+                                    <span class="original">¥88.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品2 -->
+                        <div class="product-card" data-category="fresh" data-price="98">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-fresh-2.png" alt="精选金柚">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">优选</span>
+                                <h3>精选金柚 8斤家庭装</h3>
+                                <p class="product-desc">果肉晶莹饱满，家庭分享首选</p>
+                                <div class="product-price">
+                                    <span class="price">¥98.00</span>
+                                    <span class="original">¥128.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品3 -->
+                        <div class="product-card" data-category="gift" data-price="168">
+                            <div class="product-card-image">
+                                <img src="images/products/gift-box-1.png" alt="金柚精品礼盒">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">送礼首选</span>
+                                <h3>金柚精品礼盒 尊享装</h3>
+                                <p class="product-desc">高端礼盒包装，送礼体面大方</p>
+                                <div class="product-price">
+                                    <span class="price">¥168.00</span>
+                                    <span class="original">¥198.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品4 -->
+                        <div class="product-card" data-category="gift" data-price="258">
+                            <div class="product-card-image">
+                                <img src="images/products/gift-box-2.png" alt="金柚臻品礼盒">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">限量</span>
+                                <h3>金柚臻品礼盒 豪华装</h3>
+                                <p class="product-desc">精选大果，精美包装，节日送礼首选</p>
+                                <div class="product-price">
+                                    <span class="price">¥258.00</span>
+                                    <span class="original">¥298.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品5 -->
+                        <div class="product-card" data-category="dry" data-price="36">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-dry.png" alt="金柚果干">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">休闲零食</span>
+                                <h3>金柚果干 100g×3袋</h3>
+                                <p class="product-desc">低温烘焙，保留原香，健康零嘴</p>
+                                <div class="product-price">
+                                    <span class="price">¥36.00</span>
+                                    <span class="original">¥45.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品6 -->
+                        <div class="product-card" data-category="tea" data-price="58">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-tea.png" alt="金柚蜂蜜茶">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">养生佳品</span>
+                                <h3>金柚蜂蜜茶 500g</h3>
+                                <p class="product-desc">金柚与蜂蜜完美融合，清甜润喉</p>
+                                <div class="product-price">
+                                    <span class="price">¥58.00</span>
+                                    <span class="original">¥72.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品7 -->
+                        <div class="product-card" data-category="fresh" data-price="32">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-fresh-3.png" alt="双果金柚">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">尝鲜</span>
+                                <h3>双果体验装</h3>
+                                <p class="product-desc">两颗精选金柚，尝鲜体验装</p>
+                                <div class="product-price">
+                                    <span class="price">¥32.00</span>
+                                    <span class="original">¥42.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品8 -->
+                        <div class="product-card" data-category="gift" data-price="388">
+                            <div class="product-card-image">
+                                <img src="images/products/detail-3.png" alt="企业团购装">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">企业团购</span>
+                                <h3>企业团购定制装</h3>
+                                <p class="product-desc">企业福利、商务送礼，支持定制</p>
+                                <div class="product-price">
+                                    <span class="price">¥388.00</span>
+                                    <span class="original">¥468.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 商品9 -->
+                        <div class="product-card" data-category="family" data-price="128">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-family-box.png" alt="金柚家庭装">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">家庭优选</span>
+                                <h3>金柚家庭装 8斤</h3>
+                                <p class="product-desc">8斤实惠装，约5-6个金柚，家庭分享首选</p>
+                                <div class="product-price">
+                                    <span class="price">¥128.00</span>
+                                    <span class="original">¥158.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品10 -->
+                        <div class="product-card" data-category="selected" data-price="78">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-selected-box.png" alt="金柚精选装">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">精选推荐</span>
+                                <h3>金柚精选装 5斤</h3>
+                                <p class="product-desc">颗颗精选，果形饱满，品质严选新标准</p>
+                                <div class="product-price">
+                                    <span class="price">¥78.00</span>
+                                    <span class="original">¥98.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品11 -->
+                        <div class="product-card" data-category="jam" data-price="45">
+                            <div class="product-card-image">
+                                <img src="images/products/pomelo-jam.png" alt="金柚果酱">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">手工制作</span>
+                                <h3>金柚果酱 280g</h3>
+                                <p class="product-desc">手工熬制，无添加，金柚清香，早餐好伴侣</p>
+                                <div class="product-price">
+                                    <span class="price">¥45.00</span>
+                                    <span class="original">¥56.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品12 -->
+                        <div class="product-card" data-category="combo" data-price="198">
+                            <div class="product-card-image">
+                                <img src="images/products/gift-combo.png" alt="伴手礼组合装">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">伴手好礼</span>
+                                <h3>伴手礼组合装</h3>
+                                <p class="product-desc">金柚鲜果+果干+蜂蜜茶，一站配齐</p>
+                                <div class="product-price">
+                                    <span class="price">¥198.00</span>
+                                    <span class="original">¥238.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品13 -->
+                        <div class="product-card" data-category="gift" data-price="238">
+                            <div class="product-card-image">
+                                <img src="images/products/gift-box-3.png" alt="精品礼盒3号">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">新品上市</span>
+                                <h3>精品礼盒3号 雅致装</h3>
+                                <p class="product-desc">时尚设计，精致礼盒，6颗精选中果</p>
+                                <div class="product-price">
+                                    <span class="price">¥238.00</span>
+                                    <span class="original">¥288.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="product-detail.html" class="btn-sm btn-primary btn-add-cart">
+                                        <img src="images/icons/icon-cart.png" alt=""> 购买
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 商品14 -->
+                        <div class="product-card" data-category="gift" data-price="388">
+                            <div class="product-card-image">
+                                <img src="images/products/gift-box-corporate.png" alt="企业团购尊享">
+                            </div>
+                            <div class="product-card-body">
+                                <span class="product-tag">企业团购</span>
+                                <h3>企业团购尊享装</h3>
+                                <p class="product-desc">支持LOGO定制，批量采购享专属优惠</p>
+                                <div class="product-price">
+                                    <span class="price">¥388.00</span>
+                                    <span class="original">¥468.00</span>
+                                </div>
+                                <div class="product-card-actions">
+                                    <a href="product-detail.html" class="btn-sm btn-outline-green">查看详情</a>
+                                    <a href="contact.html" class="btn-sm btn-primary">咨询采购</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分页 -->
+                    <div class="pagination">
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">›</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 浏览历史 -->
+    <section class="history-section" id="browseHistorySection">
+        <div class="container">
+            <div class="section-title">
+                <span class="label">浏览足迹</span>
+                <h2>最近<span>看过</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div id="browseHistory"></div>
+        </div>
+    </section>
+
+    <!-- 装饰分隔线 -->
+    <div class="section-divider">
+        <img src="images/ui/divider.png" alt="">
+    </div>
+
+    <!-- 信任标识栏 -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-bar-grid">
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🛡️</span>
+                    <h4>正品保证</h4>
+                    <p>原产地直发，品质严选</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🔄</span>
+                    <h4>7天退换</h4>
+                    <p>不满意无忧退换货</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">⚡</span>
+                    <h4>极速发货</h4>
+                    <p>下单后24小时内发出</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🔒</span>
+                    <h4>隐私保护</h4>
+                    <p>个人信息安全加密</p>
+                </div>
+            </div>
+            <div class="trust-bar-payment">
+                <span>支持支付：</span>
+                <span style="font-size:16px;">微信支付 · 支付宝 · 银联 · 信用卡</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/ui/logo.png" alt="梅州金柚">
+                        <span>梅州金柚</span>
+                    </div>
+                    <p>助力乡村振兴，品味梅州金柚。</p>
+                    <p>源自中国金柚之乡——广东梅州，以高端品质传递山野清甜。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>快速导航</h4>
+                    <a href="index.html">首页</a>
+                    <a href="shop.html">金柚商城</a>
+                    <a href="gift.html">礼盒专区</a>
+                    <a href="brand.html">品牌故事</a>
+                    <a href="news.html">新闻资讯</a>
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="footer-col">
+                    <h4>产品分类</h4>
+                    <a href="shop.html">新鲜金柚</a>
+                    <a href="shop.html">精品礼盒</a>
+                    <a href="shop.html">金柚果干</a>
+                    <a href="shop.html">金柚蜂蜜茶</a>
+                    <a href="gift.html">礼盒专区</a>
+                </div>
+                <div class="footer-col">
+                    <h4>联系方式</h4>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-phone.png" alt="">
+                        <span>400-888-6666</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-contact.png" alt="">
+                        <span>service@meizhoujinzhou.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-origin.png" alt="">
+                        <span>广东省梅州市金柚产业园</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 梅州金柚 版权所有 | 乡村振兴电商示范平台 | 课程作业展示网站</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <button class="back-to-top" title="返回顶部">↑</button>
+
+    <script src="js/product-data.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

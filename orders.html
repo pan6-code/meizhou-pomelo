@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的订单 | 梅州金柚</title>
+    <meta name="description" content="梅州金柚订单管理，查看您的订单历史和物流状态。">
+    <meta property="og:title" content="我的订单 | 梅州金柚">
+    <meta property="og:description" content="梅州金柚订单管理，查看订单历史和物流状态。">
+    <meta property="og:image" content="images/ui/logo.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ui/logo.png" type="image/png">
+</head>
+<body>
+
+    <a class="skip-to-main" href="#main-content">跳到主要内容</a>
+
+    <!-- 顶部公告栏 -->
+    <div class="top-bar">
+        <div class="container">
+            <span>原产地直发</span>
+            <span>新鲜采摘</span>
+            <span>品质保障</span>
+            <span>顺丰冷链配送</span>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/ui/logo.png" alt="梅州金柚">
+                梅州金柚
+            </a>
+            <div class="nav-menu">
+                <a href="index.html">首页</a>
+                <a href="shop.html">金柚商城</a>
+                <a href="gift.html">礼盒专区</a>
+                <a href="brand.html">品牌故事</a>
+                <a href="news.html">新闻资讯</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <a href="cart.html" class="nav-cart"><img src="images/icons/icon-cart.png" alt="购物车">购物车</a>
+            <div class="nav-user" id="userArea"></div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面横幅 -->
+    <section class="page-banner" style="height:200px;" id="main-content">
+        <div class="banner-bg" style="background:linear-gradient(135deg, #3F6B3F, #5A8F5A);"></div>
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1>我的订单</h1>
+            <p class="breadcrumb">
+                <a href="index.html">首页</a> <span>/</span> 我的订单
+            </p>
+        </div>
+    </section>
+
+    <!-- 订单列表 -->
+    <section class="section-padding">
+        <div class="container">
+            <!-- 空订单 -->
+            <div class="cart-empty" id="ordersEmpty">
+                <img src="images/icons/icon-cart.png" alt="暂无订单" style="width:96px;height:96px;margin:0 auto 24px;opacity:0.4;">
+                <h3>暂无订单</h3>
+                <p>快去挑选心仪的梅州金柚吧！</p>
+                <a href="shop.html" class="btn btn-primary" style="margin-top:20px;">去逛逛</a>
+            </div>
+
+            <!-- 订单列表容器 -->
+            <div class="orders-list" id="ordersList" style="display:none;">
+                <!-- JS 动态渲染 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 装饰分隔线 -->
+    <div class="section-divider">
+        <img src="images/ui/divider.png" alt="">
+    </div>
+
+    <!-- 信任标识栏 -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-bar-grid">
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🛡️</span>
+                    <h4>正品保证</h4>
+                    <p>原产地直发，品质严选</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🔄</span>
+                    <h4>7天退换</h4>
+                    <p>不满意无忧退换货</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">⚡</span>
+                    <h4>极速发货</h4>
+                    <p>下单后24小时内发出</p>
+                </div>
+                <div class="trust-bar-item">
+                    <span style="font-size:40px;">🔒</span>
+                    <h4>隐私保护</h4>
+                    <p>个人信息安全加密</p>
+                </div>
+            </div>
+            <div class="trust-bar-payment">
+                <span>支持支付：</span>
+                <span style="font-size:16px;">微信支付 · 支付宝 · 银联 · 信用卡</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/ui/logo.png" alt="梅州金柚">
+                        <span>梅州金柚</span>
+                    </div>
+                    <p>助力乡村振兴，品味梅州金柚。</p>
+                    <p>源自中国金柚之乡——广东梅州，以高端品质传递山野清甜。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>快速导航</h4>
+                    <a href="index.html">首页</a>
+                    <a href="shop.html">金柚商城</a>
+                    <a href="gift.html">礼盒专区</a>
+                    <a href="brand.html">品牌故事</a>
+                    <a href="news.html">新闻资讯</a>
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="footer-col">
+                    <h4>产品分类</h4>
+                    <a href="shop.html">新鲜金柚</a>
+                    <a href="shop.html">精品礼盒</a>
+                    <a href="shop.html">金柚果干</a>
+                    <a href="shop.html">金柚蜂蜜茶</a>
+                    <a href="gift.html">礼盒专区</a>
+                </div>
+                <div class="footer-col">
+                    <h4>联系方式</h4>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-phone.png" alt="">
+                        <span>400-888-6666</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-contact.png" alt="">
+                        <span>service@meizhoujinzhou.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/icons/icon-origin.png" alt="">
+                        <span>广东省梅州市金柚产业园</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 梅州金柚 版权所有 | 乡村振兴电商示范平台 | 课程作业展示网站</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <button class="back-to-top" title="返回顶部">↑</button>
+
+    <script src="js/product-data.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
