@@ -943,7 +943,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!userAreaEl) return;
         if (user) {
             var initial = user.name ? user.name.charAt(0).toUpperCase() : 'U';
-            userAreaEl.innerHTML = '<div class="user-avatar" id="userAvatar"><img src="images/耄耋猫.jpg" alt="用户头像" class="avatar-img"></div><div class="user-dropdown" id="userDropdown"><a href="orders.html">📋 我的订单</a><a href="favorites.html">❤️ 我的收藏</a><div class="dropdown-divider"></div><button id="logoutBtn">🚪 退出登录</button></div>';
+            userAreaEl.innerHTML = '<div class="user-avatar" id="userAvatar"><img src="images/ui/logo.webp" alt="用户头像" class="avatar-img"></div><div class="user-dropdown" id="userDropdown"><a href="orders.html">📋 我的订单</a><a href="favorites.html">❤️ 我的收藏</a><div class="dropdown-divider"></div><button id="logoutBtn">🚪 退出登录</button></div>';
             var avatar = document.getElementById('userAvatar');
             if (avatar) {
                 avatar.addEventListener('click', function(e) {
